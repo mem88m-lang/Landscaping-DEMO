@@ -44,7 +44,7 @@ export default function About() {
                       <path d="M17 8C8 10 5.9 16.17 3.82 21.34L5.71 22l1-2.3A4.49 4.49 0 008 20C19 20 22 3 22 3c-1 2-8 2-13 2 0 0 2.5-2 6.5-2C19 3 19 1 19 1S17 2 17 8z"/>
                     </svg>
                   </div>
-                  <p className="font-display text-ge-cream text-xl">GreenEdge Landscaping</p>
+                  <p className="font-display text-ge-cream text-xl">Martinez Landscaping</p>
                   <p className="text-ge-text-muted text-sm mt-1">Est. 2009 · Massachusetts</p>
                 </div>
               </div>
@@ -74,10 +74,10 @@ export default function About() {
 
             <div className="reveal reveal-delay-2 space-y-4 text-ge-text-muted leading-relaxed">
               <p>
-                Founded in 2009 by Marcus Green, GreenEdge Landscaping began as a one-truck operation in Lexington and has grown into one of MetroWest&apos;s most trusted landscape companies — with a team of 18 dedicated professionals serving homes and businesses across 12 Massachusetts towns.
+                Founded in 2009 by Marco Martinez, Martinez Landscaping began as a one-truck operation in Lexington and has grown into one of MetroWest&apos;s most trusted landscape companies — with a team of 18 dedicated professionals serving homes and businesses across 12 Massachusetts towns.
               </p>
               <p>
-                We believe beautiful landscapes shouldn&apos;t come at the cost of your peace of mind. That&apos;s why every GreenEdge team member is fully licensed, insured, and trained to Massachusetts horticulture standards. From the first mow in April to the last snow push in March, we show up when it matters most.
+                We believe beautiful landscapes shouldn&apos;t come at the cost of your peace of mind. That&apos;s why every Martinez team member is fully licensed, insured, and trained to Massachusetts horticulture standards. From the first mow in April to the last snow push in March, we show up when it matters most.
               </p>
             </div>
 

@@ -63,7 +63,7 @@ export default function Contact() {
               {[
                 { icon: '📍', label: 'Service Area', value: 'Greater Boston & MetroWest, MA' },
                 { icon: '📞', label: 'Phone',        value: '(617) 555-0182' },
-                { icon: '✉️', label: 'Email',        value: 'hello@greenedgema.com' },
+                { icon: '✉️', label: 'Email',        value: 'hello@martinezlandscaping.com' },
                 { icon: '🕐', label: 'Hours',        value: 'Mon–Sat 7am–6pm · 24/7 Winter Response' },
               ].map(item => (
                 <div key={item.label} className="flex items-start gap-4">

@@ -14,7 +14,7 @@ export default function Footer() {
                 </svg>
               </div>
               <div>
-                <div className="font-display text-ge-cream font-semibold text-lg leading-none">GreenEdge</div>
+                <div className="font-display text-ge-cream font-semibold text-lg leading-none">Martinez Landscaping</div>
                 <div className="text-ge-text-dim text-[10px] uppercase tracking-[0.2em]">Landscaping Co.</div>
               </div>
             </div>
@@ -47,7 +47,7 @@ export default function Footer() {
             <div className="text-ge-cream text-xs uppercase tracking-[0.2em] mb-4">Contact</div>
             <ul className="space-y-3 text-ge-text-muted text-sm">
               <li>(617) 555-0182</li>
-              <li>hello@greenedgema.com</li>
+              <li>hello@martinezlandscaping.com</li>
               <li className="leading-relaxed">Greater Boston &<br />MetroWest, MA</li>
               <li className="pt-2">
                 <a href="#contact"
@@ -62,7 +62,7 @@ export default function Footer() {
         <div className="gold-line mb-6" />
 
         <div className="flex flex-col sm:flex-row items-center justify-between gap-4 text-ge-text-dim text-xs">
-          <span>© {year} GreenEdge Landscaping Co. · All rights reserved.</span>
+          <span>© {year} Martinez Landscaping Co. · All rights reserved.</span>
           <span>Licensed & Insured · MA Contractor #HIC-123456</span>
         </div>
       </div>

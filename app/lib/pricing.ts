@@ -188,7 +188,7 @@ export function formatQuoteForEmail(a: QuoteAnswers, q: Quote): string {
   ).join('\n')
 
   return `
-NEW QUOTE REQUEST — GreenEdge Landscaping
+NEW QUOTE REQUEST — Martinez Landscaping
 ==========================================
 Client: ${a.name}
 Email:  ${a.email}
@@ -203,7 +203,7 @@ ${lines}
 
 TOTAL ESTIMATE: $${q.totalLow.toLocaleString()}–$${q.totalHigh.toLocaleString()}${q.isMonthly ? '/month' : ' (project)'}
 ==========================================
-Sent from GreenEdge website chat.
+Sent from Martinez Landscaping website chat.
   `.trim()
 }
 
@@ -215,7 +215,7 @@ export function formatQuoteForClient(a: QuoteAnswers, q: Quote): string {
   return `
 Hi ${a.name},
 
-Thank you for reaching out to GreenEdge Landscaping! We've reviewed your request and prepared a custom estimate for your property at ${a.address}.
+Thank you for reaching out to Martinez Landscaping! We've reviewed your request and prepared a custom estimate for your property at ${a.address}.
 
 YOUR ESTIMATE:
 ${lines}
@@ -226,7 +226,7 @@ This is an estimated range based on the information you provided. A member of ou
 
 Questions? Reply to this email or call us at (617) 555-0182.
 
-— The GreenEdge Team
-GreenEdge Landscaping Co. | Licensed & Insured | Massachusetts
+— The Martinez Team
+Martinez Landscaping Co. | Licensed & Insured | Massachusetts
   `.trim()
 }

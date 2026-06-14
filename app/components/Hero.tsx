@@ -75,7 +75,7 @@ export default function Hero() {
           <p className="text-ge-text-muted text-lg leading-relaxed max-w-xl mb-12 animate-fade-in"
             style={{ animationDelay: '0.9s', animationFillMode: 'both' }}>
             From lush summer gardens to seamless winter snow management —
-            GreenEdge delivers premium property care for Massachusetts
+            Martinez Landscaping delivers premium property care for Massachusetts
             homeowners and businesses year-round.
           </p>
 

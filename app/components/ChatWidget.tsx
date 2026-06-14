@@ -66,7 +66,7 @@ export default function ChatWidget() {
   useEffect(() => {
     if (open && msgs.length === 0) {
       setTimeout(() => addBot(
-        "👋 Hi! I'm the GreenEdge quote assistant.\n\nI'll gather a few details and send a custom estimate straight to your phone or inbox — no waiting.\n\nWhat's your first name?"
+        "👋 Hi! I'm the Martinez quote assistant.\n\nI'll gather a few details and send a custom estimate straight to your phone or inbox — no waiting.\n\nWhat's your first name?"
       ), 350)
     }
   }, [open])
@@ -236,7 +236,7 @@ export default function ChatWidget() {
     const clientBody = formatQuoteForClient(a, quote)
 
     const waText = encodeURIComponent(
-      `Hi GreenEdge! I just submitted a quote request on your website. My name is ${a.name} — looking forward to hearing from you!`
+      `Hi Martinez Landscaping! I just submitted a quote request on your website. My name is ${a.name} — looking forward to hearing from you!`
     )
 
     try {
@@ -258,7 +258,7 @@ export default function ChatWidget() {
           await emailjs.send(EJS_SERVICE_ID, EJS_OWNER_TPL, {
             to_email: OWNER_SMS_EMAIL,
             subject:  '',
-            message:  `GreenEdge lead: ${a.name} · ${a.phone} · ${a.services.join(', ')} · ${a.address}`,
+            message:  `Martinez lead: ${a.name} · ${a.phone} · ${a.services.join(', ')} · ${a.address}`,
           }, EJS_PUBLIC_KEY)
         }
 
@@ -267,7 +267,7 @@ export default function ChatWidget() {
           await emailjs.send(EJS_SERVICE_ID, EJS_CLIENT_TPL, {
             to_email:   a.email,
             to_name:    a.name,
-            subject:    'Your GreenEdge Estimate Is Ready',
+            subject:    'Your Martinez Landscaping Estimate Is Ready',
             message:    clientBody,
           }, EJS_PUBLIC_KEY)
         }
@@ -358,7 +358,7 @@ export default function ChatWidget() {
             </svg>
           </div>
           <div className="min-w-0">
-            <div className="text-ge-cream text-sm font-medium">GreenEdge Quote Assistant</div>
+            <div className="text-ge-cream text-sm font-medium">Martinez Quote Assistant</div>
             <div className="flex items-center gap-1.5">
               <span className="w-1.5 h-1.5 rounded-full bg-ge-green-bright animate-pulse flex-shrink-0" />
               <span className="text-ge-text-muted text-xs truncate">Free estimate · Delivered to you</span>

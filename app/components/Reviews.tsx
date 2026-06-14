@@ -6,7 +6,7 @@ const reviews = [
     name: 'Sarah M.',
     town: 'Lexington, MA',
     stars: 5,
-    text: 'GreenEdge has maintained our lawn for 4 years and we couldn\'t be happier. They show up on time, every time, and our yard looks better than ever. The snow service is a lifesaver every winter.',
+    text: 'Martinez Landscaping has maintained our lawn for 4 years and we couldn\'t be happier. They show up on time, every time, and our yard looks better than ever. The snow service is a lifesaver every winter.',
   },
   {
     name: 'James T.',
@@ -18,7 +18,7 @@ const reviews = [
     name: 'Karen & David L.',
     town: 'Needham, MA',
     stars: 5,
-    text: 'After the last blizzard I woke up to a completely clear driveway at 5 AM. That\'s the GreenEdge promise — 24/7 storm response. I\'ve been with them 6 years and I\'ll never switch.',
+    text: 'After the last blizzard I woke up to a completely clear driveway at 5 AM. That\'s the Martinez promise — 24/7 storm response. I\'ve been with them 6 years and I\'ll never switch.',
   },
   {
     name: 'Robert P.',

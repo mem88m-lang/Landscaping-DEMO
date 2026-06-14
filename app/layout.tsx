@@ -10,7 +10,7 @@ const cormorant = Cormorant_Garamond({
 })
 
 export const metadata: Metadata = {
-  title: 'GreenEdge Landscaping | Massachusetts Premier Landscape Services',
+  title: 'Martinez Landscaping | Massachusetts Premier Landscape Services',
   description: 'Professional landscaping, lawn care, hardscaping, snow removal and property maintenance throughout Massachusetts. Serving residential and commercial clients year-round.',
 }
 

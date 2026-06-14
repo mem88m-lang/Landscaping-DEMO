@@ -31,7 +31,7 @@ export default function Nav() {
             </svg>
           </div>
           <div>
-            <div className="font-display text-ge-cream font-semibold text-lg leading-none tracking-wide">GreenEdge</div>
+            <div className="font-display text-ge-cream font-semibold text-lg leading-none tracking-wide">Martinez Landscaping</div>
             <div className="text-ge-text-muted text-[10px] uppercase tracking-[0.2em] leading-none mt-0.5">Landscaping Co.</div>
           </div>
         </a>
