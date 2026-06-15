@@ -260,7 +260,7 @@ export default function QuoteSection() {
   }
 
   return (
-    <section id="quote" ref={sectionRef} className="relative bg-ge-black py-0 overflow-hidden">
+    <section id="quote" ref={sectionRef} className="relative bg-ge-black py-0 overflow-x-hidden w-full">
 
       <div className={`transition-all duration-1000 ${visible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-12'}`}>
 
