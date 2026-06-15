@@ -1,5 +1,6 @@
 'use client'
 import { useEffect, useRef } from 'react'
+import CountUp from './CountUp'
 
 const stats = [
   { value: '2009', label: 'Founded' },
@@ -56,7 +57,7 @@ export default function About() {
 
             {/* Floating stat card */}
             <div className="absolute -bottom-6 -right-4 sm:right-4 bg-ge-surface border border-ge-border rounded-2xl p-5 shadow-2xl">
-              <div className="font-display text-3xl text-ge-gold font-semibold">15+</div>
+              <CountUp value="15+" className="font-display text-3xl text-ge-gold font-semibold" duration={1600} />
               <div className="text-ge-text-muted text-xs uppercase tracking-widest mt-1">Years of Excellence</div>
             </div>
           </div>
@@ -99,7 +100,7 @@ export default function About() {
             <div className="reveal reveal-delay-4 grid grid-cols-2 gap-6 mt-10 pt-8 border-t border-ge-border">
               {stats.map(s => (
                 <div key={s.label}>
-                  <div className="font-display text-2xl text-ge-gold font-semibold">{s.value}</div>
+                  <CountUp value={s.value} className="font-display text-2xl text-ge-gold font-semibold" duration={1800} />
                   <div className="text-ge-text-dim text-xs uppercase tracking-wider mt-1">{s.label}</div>
                 </div>
               ))}

@@ -1,6 +1,7 @@
 'use client'
 import { useEffect, useRef } from 'react'
 import Image from 'next/image'
+import CountUp from './CountUp'
 
 export default function Hero() {
   const particlesRef = useRef<HTMLDivElement>(null)
@@ -36,6 +37,8 @@ export default function Hero() {
         className="object-cover object-center"
       />
 
+      {/* Base darkening layer — 25% darker overall */}
+      <div className="absolute inset-0 bg-black/25" />
       {/* Directional overlay: dark left for text, lighter right to show the home */}
       <div className="absolute inset-0 bg-gradient-to-r from-black/75 via-black/40 to-black/20" />
       {/* Bottom fade so stats row stays readable */}
@@ -72,7 +75,7 @@ export default function Hero() {
           <div className="gold-line w-24 mb-8 animate-line-grow origin-left" style={{ animationDelay: '0.8s', animationFillMode: 'both' }} />
 
           {/* Subtitle */}
-          <p className="text-ge-text-muted text-lg leading-relaxed max-w-xl mb-12 animate-fade-in"
+          <p className="text-white/90 text-lg leading-relaxed max-w-xl mb-12 animate-fade-in drop-shadow-[0_2px_8px_rgba(0,0,0,0.9)]"
             style={{ animationDelay: '0.9s', animationFillMode: 'both' }}>
             From lush summer gardens to seamless winter snow management —
             Martinez Landscaping delivers premium property care for Massachusetts
@@ -95,7 +98,7 @@ export default function Hero() {
           <div className="flex flex-wrap gap-10 mt-16 pt-10 border-t border-ge-border animate-fade-in" style={{ animationDelay: '1.3s', animationFillMode: 'both' }}>
             {[['15+', 'Years in Business'], ['800+', 'Properties Served'], ['24/7', 'Winter Response'], ['5★', 'Average Rating']].map(([n, l]) => (
               <div key={l}>
-                <div className="font-display text-3xl text-ge-gold font-semibold">{n}</div>
+                <CountUp value={n} className="font-display text-3xl text-ge-gold font-semibold" duration={2000} />
                 <div className="text-ge-text-dim text-xs uppercase tracking-[0.15em] mt-1">{l}</div>
               </div>
             ))}
