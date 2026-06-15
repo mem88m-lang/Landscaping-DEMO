@@ -44,7 +44,7 @@ export default function Nav() {
               {l.label}
             </a>
           ))}
-          <a href="#contact"
+          <a href="#quote"
             className="ml-4 px-5 py-2.5 bg-ge-green-mid hover:bg-ge-green-bright text-ge-cream text-sm font-medium rounded-full transition-all duration-200 hover:shadow-lg hover:shadow-ge-green-mid/30">
             Free Quote
           </a>
@@ -67,7 +67,7 @@ export default function Nav() {
               {l.label}
             </a>
           ))}
-          <a href="#contact" onClick={() => setOpen(false)}
+          <a href="#quote" onClick={() => setOpen(false)}
             className="mt-2 px-6 py-3 bg-ge-green-mid text-ge-cream text-sm font-medium rounded-full text-center">
             Free Quote
           </a>

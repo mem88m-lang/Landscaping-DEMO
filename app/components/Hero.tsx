@@ -84,13 +84,13 @@ export default function Hero() {
 
           {/* CTAs */}
           <div className="flex flex-wrap items-center gap-4 animate-fade-in" style={{ animationDelay: '1.1s', animationFillMode: 'both' }}>
-            <a href="#contact"
-              className="px-8 py-4 bg-ge-green-mid hover:bg-ge-green-bright text-ge-cream font-medium rounded-full transition-all duration-300 hover:shadow-2xl hover:shadow-ge-green-mid/40 hover:-translate-y-0.5">
-              Get a Free Quote
-            </a>
             <a href="#services"
-              className="px-8 py-4 border border-ge-gold/50 hover:border-ge-gold text-ge-gold hover:text-ge-cream font-medium rounded-full transition-all duration-300 hover:bg-ge-gold/10">
+              className="px-8 py-4 bg-ge-green-mid hover:bg-ge-green-bright text-ge-cream font-medium rounded-full transition-all duration-300 hover:shadow-2xl hover:shadow-ge-green-mid/40 hover:-translate-y-0.5">
               View Our Services
+            </a>
+            <a href="#quote"
+              className="px-8 py-4 border border-ge-gold/50 hover:border-ge-gold text-ge-gold hover:text-ge-cream font-medium rounded-full transition-all duration-300 hover:bg-ge-gold/10">
+              Get a Free Quote ↓
             </a>
           </div>
 

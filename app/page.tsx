@@ -1,6 +1,6 @@
 import Nav from './components/Nav'
-import ChatWidget from './components/ChatWidget'
 import Hero from './components/Hero'
+import QuoteSection from './components/QuoteSection'
 import Services from './components/Services'
 import About from './components/About'
 import Gallery from './components/Gallery'
@@ -14,6 +14,7 @@ export default function Home() {
       <Nav />
       <main>
         <Hero />
+        <QuoteSection />
         <Services />
         <About />
         <Gallery />
@@ -21,7 +22,6 @@ export default function Home() {
         <Contact />
       </main>
       <Footer />
-      <ChatWidget />
     </>
   )
 }
