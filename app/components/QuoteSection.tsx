@@ -266,7 +266,21 @@ export default function QuoteSection() {
 
         {/* ── Chat ─────────────────────────────────────────────────────── */}
         {(
-          <div className="max-w-3xl mx-auto px-6 lg:px-10 py-16">
+          <div className="max-w-7xl mx-auto px-6 lg:px-10 py-16">
+
+            {/* Title */}
+            <div className="text-center mb-8">
+              <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-ge-green-mid/40 bg-ge-green-deep/20 mb-5">
+                <span className="w-1.5 h-1.5 rounded-full bg-ge-green-bright animate-pulse" />
+                <span className="text-ge-green-light text-xs uppercase tracking-[0.2em]">Free Estimate</span>
+              </div>
+              <h2 className="font-display text-[clamp(2rem,4vw,3rem)] text-ge-cream leading-tight mb-3">
+                👋 Hi! Want a <em className="not-italic text-ge-gold">free quote?</em>
+              </h2>
+              <p className="text-ge-text-muted text-base max-w-md mx-auto">
+                Tell us about your property and we'll send a custom estimate straight to your phone or inbox — in minutes, not days.
+              </p>
+            </div>
             <div className="bg-ge-surface border border-ge-border rounded-3xl overflow-hidden shadow-2xl shadow-black/40">
 
               {/* Chat header */}
