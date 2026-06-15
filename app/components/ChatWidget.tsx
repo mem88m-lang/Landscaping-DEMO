@@ -446,6 +446,25 @@ export default function ChatWidget() {
                 onChange={e => setInput(e.target.value)}
                 onKeyDown={e => e.key === 'Enter' && handleSend()}
                 placeholder={step === 'notes' ? 'Optional — press Enter to skip' : 'Type your answer…'}
+                autoComplete={
+                  step === 'name'    ? 'given-name' :
+                  step === 'email'   ? 'email' :
+                  step === 'phone'   ? 'tel' :
+                  step === 'address' ? 'street-address' :
+                  'off'
+                }
+                name={
+                  step === 'name'    ? 'given-name' :
+                  step === 'email'   ? 'email' :
+                  step === 'phone'   ? 'tel' :
+                  step === 'address' ? 'street-address' :
+                  undefined
+                }
+                type={
+                  step === 'email' ? 'email' :
+                  step === 'phone' ? 'tel' :
+                  'text'
+                }
                 className="flex-1 bg-ge-surface border border-ge-border rounded-xl px-3 py-2 text-ge-cream text-sm placeholder-ge-text-dim focus:outline-none focus:border-ge-green-mid transition-colors min-w-0"
               />
               <button onClick={() => handleSend()}
